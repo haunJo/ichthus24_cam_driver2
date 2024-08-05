@@ -1,0 +1,23 @@
+/**:
+    ros__parameters:
+      video_device: "/dev/video4"
+      framerate: 20.0
+      # io_method: "mmap"
+      frame_id: "camera"
+      pixel_format: "uyvy"  # see usb_cam/supported_formats for list of supported formats
+      # av_device_format: "YUV422P"
+      image_width: 1920
+      image_height: 1280
+      camera_name: "Tier4C1"
+      camera_info_url: "package://usb_cam/config/camera_info.yaml"
+      # brightness: 80 # 밝기
+      # contrast: 50 # 대비
+      # saturation: 10 # 채도
+      # sharpness: 24 # 선명도
+      # gain: 1 # 게인 (낮은 조도 환경에서 이미지를 밝게 하기 위해 사용)
+      # #auto_white_balance: false 
+      # #white_balance: 4000
+      # #autoexposure: false
+      # exposure: 100 # 노출 (높을수록 더 많은 빛을 받아 이미지가 밝아지나, 움직이는 물체가 흐려질 수 있음)
+      # #autofocus: false
+      # #focus: 12
